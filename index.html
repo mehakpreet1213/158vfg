@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html >
   <head>
     <meta charset="utf-8" />
     <title>Virtual Comics Store</title>
@@ -12,7 +12,6 @@
   </head>
   <body>
     <a-scene background="color:#90caf9">
-      <!-- Ground -->
       <a-plane
         id="ground"
         color="#78909c"
@@ -20,7 +19,6 @@
         height="100"
         rotation="-90 0 0"
       ></a-plane>
-      <!-- Poster Container -->
       <a-entity id="posters-container" comics-posters > </a-entity>
 
       <a-camera id="camera" wasd-controls="enabled:false;" position="0 10 20">
@@ -33,7 +31,7 @@
         >
         </a-entity>
 
-        <!-- Title -->
+    
         <a-entity
           id="app-title"
           position="0 0.73 -1"
